@@ -1,37 +1,43 @@
-name: Build Meetup RSS (Starting Soon)
+name: Meetup StartingSoon RSS
 
 on:
   schedule:
-    - cron: "*/15 * * * *" # every 15 minutes
+    - cron: "0 * * * *"   # every hour (UTC)
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  build:
+  scrape-and-publish:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Install deps
+      - name: Install dependencies (incl. virtual display)
         run: |
+          sudo apt-get update
+          sudo apt-get install -y xvfb
           python -m pip install --upgrade pip
+
+          # If your requirements are in scripts/requirements.txt, keep this.
+          # If they're in root requirements.txt, change path accordingly.
           pip install -r scripts/requirements.txt
+
           python -m playwright install --with-deps chromium
 
-      - name: Build RSS feed
+      - name: Run scraper (with virtual display)
         env:
           TZ: America/Toronto
         run: |
-          python scripts/meetups_to_rss.py
+          xvfb-run -a python scripts/meetups_to_rss.py
 
       - name: Deploy to GitHub Pages branch (gh-pages)
         uses: peaceiris/actions-gh-pages@v4
