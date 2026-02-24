@@ -31,7 +31,7 @@ jobs:
         env:
           TZ: America/Toronto
         run: |
-          python scripts/meetup_to_rss.py
+          python scripts/meetups_to_rss.py
 
       - name: Deploy to GitHub Pages branch (gh-pages)
         uses: peaceiris/actions-gh-pages@v4
