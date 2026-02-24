@@ -1,3 +1,11 @@
+# scripts/meetups_to_rss.py
+# Generates an RSS feed (public/feed.xml) for Meetup "Starting Soon" online events.
+# Uses Playwright to render the lazy-loaded DOM, extracts event title/time/attendees/link,
+# and filters to events that appear to start within ~WINDOW_MINUTES (best-effort).
+#
+# Also publishes debug artifacts so you can inspect what the GitHub runner saw:
+#   public/debug.html, public/debug.png, public/debug.json
+
 import os
 import re
 import json
@@ -8,7 +16,6 @@ from zoneinfo import ZoneInfo
 from dateutil import parser as dateparser
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
 
-
 MEETUP_URL = "https://www.meetup.com/find/?dateRange=startingSoon&source=EVENTS&eventType=online"
 
 OUT_DIR = "public"
@@ -18,12 +25,18 @@ DEBUG_PNG = os.path.join(OUT_DIR, "debug.png")
 DEBUG_JSON = os.path.join(OUT_DIR, "debug.json")
 
 LOCAL_TZ = ZoneInfo("America/Toronto")
+
+# Meetup "startingSoon" often does not provide strict timestamps on every card,
+# so we use a wider window and a fallback that keeps "starting soon"/relative items.
 WINDOW_MINUTES = 90
 MAX_ITEMS = 50
 
-FEED_TITLE = "Meetup (Online) — Starting Soon (Next Hour)"
+FEED_TITLE = "Meetup (Online) — Starting Soon (Next ~90 Minutes)"
 FEED_LINK = MEETUP_URL
-FEED_DESCRIPTION = "Auto-generated RSS for Meetup online events starting within the next hour."
+FEED_DESCRIPTION = (
+    "Auto-generated RSS for Meetup online events starting soon. "
+    "Prefers next ~90 minutes when timestamps exist; otherwise uses relative-text fallbacks."
+)
 
 
 def esc(s: str) -> str:
@@ -43,7 +56,7 @@ def rfc2822(dt: datetime) -> str:
 def extract_attendees(card_text: str):
     """
     Best-effort attendee extraction from card text.
-    Matches patterns like: "12 attendees", "12 going", "12 RSVPs", "12 attending"
+    Matches patterns like: "12 attendees", "12 going", "12 RSVPs", "12 attending".
     """
     if not card_text:
         return None
@@ -66,12 +79,13 @@ def extract_attendees(card_text: str):
 def parse_dt(dt_attr: str, when_text: str):
     """
     Parse event start time using:
-      1) <time datetime="..."> attribute if present
+      1) <time datetime="..."> attribute if present (best)
       2) relative strings like "in 30 minutes"
       3) "Today"/"Tomorrow" date strings
+
     Returns timezone-aware datetime in LOCAL_TZ or None.
     """
-    # 1) datetime attribute
+    # 1) datetime attribute (often ISO)
     if dt_attr:
         try:
             dt = dateparser.parse(dt_attr)
@@ -87,7 +101,7 @@ def parse_dt(dt_attr: str, when_text: str):
     base = now_local()
     t = re.sub(r"\s+", " ", t)
 
-    # 2) relative
+    # 2) relative: "in 15 minutes", "in 1 hour"
     rel = re.search(r"\bin\s+(\d{1,3})\s*(minute|minutes|hour|hours)\b", t, re.I)
     if rel:
         n = int(rel.group(1))
@@ -100,6 +114,7 @@ def parse_dt(dt_attr: str, when_text: str):
     if re.search(r"\btomorrow\b", t, re.I):
         t = re.sub(r"\btomorrow\b", (base + timedelta(days=1)).strftime("%Y-%m-%d"), t, flags=re.I)
 
+    # best-effort parse
     try:
         dt = dateparser.parse(t)
         if not dt:
@@ -109,24 +124,32 @@ def parse_dt(dt_attr: str, when_text: str):
         return None
 
 
-def within_next_hour(dt: datetime | None, when_text: str) -> bool:
+def within_window(dt: datetime | None, when_text: str) -> bool:
     """
-    Keep events starting within next WINDOW_MINUTES.
-    If datetime parsing fails, keep obvious "starting soon" / "in X minutes".
+    Smart filter:
+      - If we have a parsed datetime: keep only if within WINDOW_MINUTES.
+      - If not: keep if it looks like relative time within window or says "starting soon".
+      - Final fallback: keep anyway because the page itself is "startingSoon" and we want a useful feed.
     """
     if dt:
         start = now_local()
         end = start + timedelta(minutes=WINDOW_MINUTES)
         return start <= dt <= end
 
-    t = (when_text or "").lower()
+    t = (when_text or "").lower().strip()
+
     if "starting soon" in t:
         return True
-    if re.search(r"\bin\s+\d+\s+minutes?\b", t):
-        return True
-    if re.search(r"\bin\s+1\s+hour\b", t):
-        return True
-    return False
+
+    m = re.search(r"\bin\s+(\d{1,3})\s*(minute|minutes|hour|hours)\b", t)
+    if m:
+        n = int(m.group(1))
+        unit = m.group(2)
+        minutes = n * 60 if "hour" in unit else n
+        return minutes <= WINDOW_MINUTES
+
+    # fallback: keep (otherwise you can get kept=0 even with many extracted cards)
+    return True
 
 
 def build_rss(items):
@@ -172,9 +195,8 @@ def build_rss(items):
 
 def scrape_rendered_dom():
     """
-    Render the lazy Meetup page on the runner and extract event-like cards
-    via evaluate() (similar to your previous successful approach).
-    Also writes debug.html/debug.png/debug.json so you can inspect what loaded.
+    Render the lazy Meetup page on the runner and extract event-like cards via evaluate().
+    Writes debug.html/debug.png/debug.json so you can inspect what loaded.
     """
     with sync_playwright() as p:
         browser = p.chromium.launch(
@@ -192,7 +214,7 @@ def scrape_rendered_dom():
             ),
         )
 
-        # Reduce obvious automation flags
+        # Reduce obvious automation flags a bit
         context.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined});")
 
         page = context.new_page()
@@ -225,7 +247,7 @@ def scrape_rendered_dom():
 
         os.makedirs(OUT_DIR, exist_ok=True)
 
-        # Debug artifacts (what the runner actually sees)
+        # Debug artifacts (what the runner sees)
         try:
             with open(DEBUG_HTML, "w", encoding="utf-8") as f:
                 f.write(page.content())
@@ -307,7 +329,7 @@ def main():
     events = raw.get("events", [])
     body_snip = (raw.get("bodySnippet") or "").lower()
 
-    # If blocked / empty, emit a diagnostic RSS item so your feed isn't blank
+    # If the runner got blocked, you'll usually see these signals
     blocked_signals = ["verify", "captcha", "robot", "unusual traffic", "enable javascript"]
     is_blocked = (count_anchors == 0 and extracted == 0) or any(s in body_snip for s in blocked_signals)
 
@@ -317,7 +339,7 @@ def main():
         items.append({
             "title": "⚠️ Meetup blocked or page did not render on GitHub runner",
             "url": MEETUP_URL,
-            "when_text": f"anchors={count_anchors}, extracted={extracted}. Open /debug.png and /debug.html on your GitHub Pages site.",
+            "when_text": f"anchors={count_anchors}, extracted={extracted}. Open /debug.png and /debug.html on GitHub Pages.",
             "attendees": None,
             "pubdate": rfc2822(datetime.now(timezone.utc)),
         })
@@ -330,37 +352,52 @@ def main():
             card_text = e.get("cardText") or ""
 
             start_dt = parse_dt(dt_attr, when_text)
-            if not within_next_hour(start_dt, when_text):
+            if not within_window(start_dt, when_text):
                 continue
 
             attendees = extract_attendees(card_text)
+
             pub = rfc2822(start_dt.astimezone(timezone.utc)) if start_dt else rfc2822(datetime.now(timezone.utc))
 
             items.append({
                 "title": title,
                 "url": url,
-                "when_text": when_text,
+                "when_text": when_text if when_text else "Starting soon (time not provided on card)",
                 "attendees": attendees,
                 "pubdate": pub,
+                "sort_dt": start_dt.isoformat() if start_dt else None,
             })
 
-        # Keep a visible message if filtering eliminated everything
+        # Sort known-datetime first, unknown last
+        far = datetime.max.replace(tzinfo=LOCAL_TZ)
+
+        def sort_key(it):
+            if it.get("sort_dt"):
+                try:
+                    dt = dateparser.parse(it["sort_dt"])
+                    return dt.astimezone(LOCAL_TZ) if dt.tzinfo else dt.replace(tzinfo=LOCAL_TZ)
+                except Exception:
+                    return far
+            return far
+
+        items.sort(key=sort_key)
+        items = items[:MAX_ITEMS]
+
         if not items:
+            # Keep feed non-empty with a helpful diagnostic
             items.append({
-                "title": "ℹ️ No events matched 'next hour' at run time (see debug.json)",
+                "title": "ℹ️ Events were extracted but time filtering kept 0",
                 "url": MEETUP_URL,
-                "when_text": f"anchors={count_anchors}, extracted={extracted}, kept=0. Try widening WINDOW_MINUTES.",
+                "when_text": f"anchors={count_anchors}, extracted={extracted}, kept=0. Check /debug.json for whenText/dtAttr.",
                 "attendees": None,
                 "pubdate": rfc2822(datetime.now(timezone.utc)),
             })
-
-        items = items[:MAX_ITEMS]
 
     rss = build_rss(items)
     with open(FEED_PATH, "w", encoding="utf-8") as f:
         f.write(rss)
 
-    # Log key counts in Actions
+    # Logs in GitHub Actions
     print(f"[INFO] pageTitle={raw.get('pageTitle')}")
     print(f"[INFO] anchors={count_anchors}, extracted={extracted}, rss_items={len(items)}")
     print(f"[INFO] wrote: {FEED_PATH}")
@@ -369,3 +406,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+```0
