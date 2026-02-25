@@ -1,10 +1,20 @@
 # scripts/meetups_to_rss.py
-# Generates an RSS feed (public/feed.xml) for Meetup "Starting Soon" online events.
-# Uses Playwright to render the lazy-loaded DOM, extracts event title/time/attendees/link,
-# and filters to events that appear to start within ~WINDOW_MINUTES (best-effort).
+# Meetup "Starting Soon" (Online) -> RSS feed for GitHub Pages.
 #
-# Also publishes debug artifacts so you can inspect what the GitHub runner saw:
+# Output:
+#   public/feed.xml
+# Debug artifacts (optional but very useful):
 #   public/debug.html, public/debug.png, public/debug.json
+#
+# Title format (as requested):
+#   "<Title> | <Date/Time text> | <Attendees text>"
+#
+# Sorting (as requested):
+#   Most attendees FIRST (descending). If attendee count missing, treated as 0.
+#
+# Notes:
+# - Meetup "startingSoon" cards sometimes have imperfect/variable timestamps.
+# - We use a best-effort time window but keep a fallback so the feed isn't empty.
 
 import os
 import re
@@ -26,16 +36,15 @@ DEBUG_JSON = os.path.join(OUT_DIR, "debug.json")
 
 LOCAL_TZ = ZoneInfo("America/Toronto")
 
-# Meetup "startingSoon" often does not provide strict timestamps on every card,
-# so we use a wider window and a fallback that keeps "starting soon"/relative items.
+# "startingSoon" is fuzzy on Meetup; widen slightly and keep smart fallbacks
 WINDOW_MINUTES = 90
 MAX_ITEMS = 50
 
-FEED_TITLE = "Meetup (Online) — Starting Soon (Next ~90 Minutes)"
+FEED_TITLE = "Meetup (Online) — Starting Soon (Most Attendees First)"
 FEED_LINK = MEETUP_URL
 FEED_DESCRIPTION = (
     "Auto-generated RSS for Meetup online events starting soon. "
-    "Prefers next ~90 minutes when timestamps exist; otherwise uses relative-text fallbacks."
+    "Titles include time + attendees, sorted by attendee count (desc)."
 )
 
 
@@ -53,27 +62,19 @@ def rfc2822(dt: datetime) -> str:
     return dt.strftime("%a, %d %b %Y %H:%M:%S %z")
 
 
-def extract_attendees(card_text: str):
+def attendees_to_int(attendees_text: str | None) -> int:
     """
-    Best-effort attendee extraction from card text.
-    Matches patterns like: "12 attendees", "12 going", "12 RSVPs", "12 attending".
+    Convert '47 attendees' -> 47 (best-effort). Missing/invalid -> 0.
     """
-    if not card_text:
-        return None
-    t = " ".join(card_text.split())
-    m = re.search(r"\b(\d{1,6})\s*(attendees|going|rsvps|people|attending)\b", t, re.I)
-    if m:
-        try:
-            return int(m.group(1))
-        except Exception:
-            return None
-    m2 = re.search(r"\battendees?\s*[:\-]?\s*(\d{1,6})\b", t, re.I)
-    if m2:
-        try:
-            return int(m2.group(1))
-        except Exception:
-            return None
-    return None
+    if not attendees_text:
+        return 0
+    m = re.search(r"(\d{1,6})", attendees_text.replace(",", ""))
+    if not m:
+        return 0
+    try:
+        return int(m.group(1))
+    except Exception:
+        return 0
 
 
 def parse_dt(dt_attr: str, when_text: str):
@@ -82,10 +83,8 @@ def parse_dt(dt_attr: str, when_text: str):
       1) <time datetime="..."> attribute if present (best)
       2) relative strings like "in 30 minutes"
       3) "Today"/"Tomorrow" date strings
-
     Returns timezone-aware datetime in LOCAL_TZ or None.
     """
-    # 1) datetime attribute (often ISO)
     if dt_attr:
         try:
             dt = dateparser.parse(dt_attr)
@@ -101,20 +100,19 @@ def parse_dt(dt_attr: str, when_text: str):
     base = now_local()
     t = re.sub(r"\s+", " ", t)
 
-    # 2) relative: "in 15 minutes", "in 1 hour"
+    # Relative: "in 15 minutes", "in 1 hour"
     rel = re.search(r"\bin\s+(\d{1,3})\s*(minute|minutes|hour|hours)\b", t, re.I)
     if rel:
         n = int(rel.group(1))
         unit = rel.group(2).lower()
         return base + (timedelta(hours=n) if "hour" in unit else timedelta(minutes=n))
 
-    # 3) Today/Tomorrow normalization
+    # Today/Tomorrow normalization
     if re.search(r"\btoday\b", t, re.I):
         t = re.sub(r"\btoday\b", base.strftime("%Y-%m-%d"), t, flags=re.I)
     if re.search(r"\btomorrow\b", t, re.I):
         t = re.sub(r"\btomorrow\b", (base + timedelta(days=1)).strftime("%Y-%m-%d"), t, flags=re.I)
 
-    # best-effort parse
     try:
         dt = dateparser.parse(t)
         if not dt:
@@ -126,10 +124,11 @@ def parse_dt(dt_attr: str, when_text: str):
 
 def within_window(dt: datetime | None, when_text: str) -> bool:
     """
-    Smart filter:
-      - If we have a parsed datetime: keep only if within WINDOW_MINUTES.
-      - If not: keep if it looks like relative time within window or says "starting soon".
-      - Final fallback: keep anyway because the page itself is "startingSoon" and we want a useful feed.
+    Keep if:
+      - dt exists and within WINDOW_MINUTES
+      - OR relative string indicates within WINDOW_MINUTES
+      - OR "starting soon"
+      - OR fallback keep (because the page itself is "startingSoon")
     """
     if dt:
         start = now_local()
@@ -137,7 +136,6 @@ def within_window(dt: datetime | None, when_text: str) -> bool:
         return start <= dt <= end
 
     t = (when_text or "").lower().strip()
-
     if "starting soon" in t:
         return True
 
@@ -148,7 +146,7 @@ def within_window(dt: datetime | None, when_text: str) -> bool:
         minutes = n * 60 if "hour" in unit else n
         return minutes <= WINDOW_MINUTES
 
-    # fallback: keep (otherwise you can get kept=0 even with many extracted cards)
+    # fallback: keep
     return True
 
 
@@ -160,14 +158,14 @@ def build_rss(items):
         title = esc(it.get("title", ""))
         link = esc(it.get("url", ""))
         when_text = esc(it.get("when_text", ""))
-        attendees = it.get("attendees")
+        attendees_text = esc(it.get("attendees_text", ""))
 
-        desc = []
+        desc_parts = []
         if when_text:
-            desc.append(f"<p><b>Time:</b> {when_text}</p>")
-        if attendees is not None:
-            desc.append(f"<p><b>Attendees:</b> {attendees}</p>")
-        desc.append(f"<p><a href=\"{link}\">Open event</a></p>")
+            desc_parts.append(f"<p><b>Time:</b> {when_text}</p>")
+        if attendees_text:
+            desc_parts.append(f"<p><b>Attendees:</b> {attendees_text}</p>")
+        desc_parts.append(f"<p><a href=\"{link}\">Open event</a></p>")
 
         pubdate = it.get("pubdate", last_build)
 
@@ -176,7 +174,7 @@ def build_rss(items):
   <link>{link}</link>
   <guid isPermaLink="true">{link}</guid>
   <pubDate>{pubdate}</pubDate>
-  <description><![CDATA[{''.join(desc)}]]></description>
+  <description><![CDATA[{''.join(desc_parts)}]]></description>
 </item>""")
 
     return f"""<?xml version="1.0" encoding="UTF-8"?>
@@ -195,8 +193,8 @@ def build_rss(items):
 
 def scrape_rendered_dom():
     """
-    Render the lazy Meetup page on the runner and extract event-like cards via evaluate().
-    Writes debug.html/debug.png/debug.json so you can inspect what loaded.
+    Render the lazy Meetup page on the runner and extract event cards via evaluate().
+    Also writes debug.html/debug.png/debug.json so you can inspect what loaded.
     """
     with sync_playwright() as p:
         browser = p.chromium.launch(
@@ -213,8 +211,6 @@ def scrape_rendered_dom():
                 "(KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
             ),
         )
-
-        # Reduce obvious automation flags a bit
         context.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined});")
 
         page = context.new_page()
@@ -247,7 +243,7 @@ def scrape_rendered_dom():
 
         os.makedirs(OUT_DIR, exist_ok=True)
 
-        # Debug artifacts (what the runner sees)
+        # Debug artifacts
         try:
             with open(DEBUG_HTML, "w", encoding="utf-8") as f:
                 f.write(page.content())
@@ -276,24 +272,40 @@ def scrape_rendered_dom():
                 if (!url || seen.has(url)) continue;
                 seen.add(url);
 
-                const card = a.closest("article") || a.closest("li") || a.closest("div");
+                const card =
+                  a.closest("[data-testid='categoryResults-eventCard']") ||
+                  a.closest("article") ||
+                  a.closest("li") ||
+                  a.closest("div");
 
+                // Title
                 let title =
-                  (card && card.querySelector("h3") && card.querySelector("h3").innerText) ||
+                  card?.querySelector("h3")?.innerText ||
                   a.getAttribute("aria-label") ||
                   a.innerText ||
                   "";
-
                 title = (title || "").trim();
                 if (!title || title.length < 3) continue;
 
-                const timeEl = card ? card.querySelector("time") : null;
-                const whenText = (timeEl && timeEl.innerText ? timeEl.innerText : "").trim();
-                const dtAttr = (timeEl && timeEl.getAttribute("datetime") ? timeEl.getAttribute("datetime") : "").trim();
+                // Time
+                const timeEl = card?.querySelector("time");
+                const whenText = (timeEl?.innerText || "").trim();
+                const dtAttr = (timeEl?.getAttribute("datetime") || "").trim();
+
+                // Attendees (scan for a span containing "attendee")
+                let attendeesText = "";
+                const spans = card?.querySelectorAll("span") || [];
+                for (const s of spans) {
+                  const t = (s.innerText || "").trim();
+                  if (t.toLowerCase().includes("attendee")) {
+                    attendeesText = t;
+                    break;
+                  }
+                }
 
                 const cardText = (card && card.innerText) ? card.innerText : (a.innerText || "");
 
-                out.push({ title, url, whenText, dtAttr, cardText });
+                out.push({ title, url, whenText, dtAttr, attendeesText, cardText });
               }
 
               return {
@@ -308,7 +320,6 @@ def scrape_rendered_dom():
             """
         )
 
-        # Save debug JSON too
         try:
             with open(DEBUG_JSON, "w", encoding="utf-8") as f:
                 json.dump(raw, f, ensure_ascii=False, indent=2)
@@ -329,7 +340,6 @@ def main():
     events = raw.get("events", [])
     body_snip = (raw.get("bodySnippet") or "").lower()
 
-    # If the runner got blocked, you'll usually see these signals
     blocked_signals = ["verify", "captcha", "robot", "unusual traffic", "enable javascript"]
     is_blocked = (count_anchors == 0 and extracted == 0) or any(s in body_snip for s in blocked_signals)
 
@@ -340,22 +350,33 @@ def main():
             "title": "⚠️ Meetup blocked or page did not render on GitHub runner",
             "url": MEETUP_URL,
             "when_text": f"anchors={count_anchors}, extracted={extracted}. Open /debug.png and /debug.html on GitHub Pages.",
-            "attendees": None,
+            "attendees_text": "",
+            "attendees_count": 0,
             "pubdate": rfc2822(datetime.now(timezone.utc)),
         })
     else:
         for e in events:
-            title = (e.get("title") or "").strip()
+            base_title = (e.get("title") or "").strip()
             url = (e.get("url") or "").strip()
             when_text = (e.get("whenText") or "").strip()
             dt_attr = (e.get("dtAttr") or "").strip()
-            card_text = e.get("cardText") or ""
+            attendees_text = (e.get("attendeesText") or "").strip()
 
             start_dt = parse_dt(dt_attr, when_text)
+
+            # Keep events in (best-effort) time window
             if not within_window(start_dt, when_text):
                 continue
 
-            attendees = extract_attendees(card_text)
+            attendees_count = attendees_to_int(attendees_text)
+
+            # Build title: Title | Date/Time | Attendees
+            title_parts = [base_title]
+            if when_text:
+                title_parts.append(when_text)
+            if attendees_text:
+                title_parts.append(attendees_text)
+            title = " | ".join(title_parts)
 
             pub = rfc2822(start_dt.astimezone(timezone.utc)) if start_dt else rfc2822(datetime.now(timezone.utc))
 
@@ -363,33 +384,23 @@ def main():
                 "title": title,
                 "url": url,
                 "when_text": when_text if when_text else "Starting soon (time not provided on card)",
-                "attendees": attendees,
+                "attendees_text": attendees_text,
+                "attendees_count": attendees_count,
                 "pubdate": pub,
-                "sort_dt": start_dt.isoformat() if start_dt else None,
             })
 
-        # Sort known-datetime first, unknown last
-        far = datetime.max.replace(tzinfo=LOCAL_TZ)
+        # ✅ Sort by attendees DESC (most attendees first)
+        items.sort(key=lambda x: x.get("attendees_count", 0), reverse=True)
 
-        def sort_key(it):
-            if it.get("sort_dt"):
-                try:
-                    dt = dateparser.parse(it["sort_dt"])
-                    return dt.astimezone(LOCAL_TZ) if dt.tzinfo else dt.replace(tzinfo=LOCAL_TZ)
-                except Exception:
-                    return far
-            return far
-
-        items.sort(key=sort_key)
         items = items[:MAX_ITEMS]
 
         if not items:
-            # Keep feed non-empty with a helpful diagnostic
             items.append({
                 "title": "ℹ️ Events were extracted but time filtering kept 0",
                 "url": MEETUP_URL,
                 "when_text": f"anchors={count_anchors}, extracted={extracted}, kept=0. Check /debug.json for whenText/dtAttr.",
-                "attendees": None,
+                "attendees_text": "",
+                "attendees_count": 0,
                 "pubdate": rfc2822(datetime.now(timezone.utc)),
             })
 
@@ -400,6 +411,9 @@ def main():
     # Logs in GitHub Actions
     print(f"[INFO] pageTitle={raw.get('pageTitle')}")
     print(f"[INFO] anchors={count_anchors}, extracted={extracted}, rss_items={len(items)}")
+    if items and "attendees_count" in items[0]:
+        top = items[0]
+        print(f"[INFO] top_item_attendees={top.get('attendees_count')} title={top.get('title')[:120]}")
     print(f"[INFO] wrote: {FEED_PATH}")
     print(f"[INFO] debug: {DEBUG_HTML}, {DEBUG_PNG}, {DEBUG_JSON}")
 
