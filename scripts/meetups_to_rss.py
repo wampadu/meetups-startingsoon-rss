@@ -390,7 +390,7 @@ def main():
             })
 
         # ✅ Sort by attendees DESC (most attendees first)
-        items.sort(key=lambda x: x.get("attendees_count", 0))
+        items.sort(key=lambda x: x.get("attendees_count", 0), reverse=TRUE)
 
         items = items[:MAX_ITEMS]
 
