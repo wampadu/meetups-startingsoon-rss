@@ -1,0 +1,73 @@
+{
+  "pageTitle": "Find Events & Groups | Meetup",
+  "url": "https://www.meetup.com/find/?dateRange=startingSoon&source=EVENTS&eventType=online",
+  "countAnchors": 8,
+  "extracted": 8,
+  "bodySnippet": "Skip to content\nHomepage\nEnglish\nLog in\nSign up\nEvents\nGroups\nEvents near Chicago, IL\nReset\nStarting soon\nOnline\nWithin 18 miles\nAll events\nNew Groups\nSocial Activities\nHobbies & Passions\nSports & Fitness\nTravel & Outdoor\nCareer & Business\nTechnology\nCommunity & Environment\nIdentity & Language\nGames\nDancing\nSupport & Coaching\nMusic\nHealth & Wellbeing\nArt & Culture\nScience & Education\nPets & Animals\nReligion & Spirituality\nWriting\nParents & Family\nMovements & Politics\nExperimenta la meditación y comienza tu día en el silencio interior. Gratuito\nEvery Mon, Tue, Wed, Thu · Mar 2 · 6:00 AM EST\n·\nOnline\nby Orlando Free Meditation\n4.4\n1 attendee\nExperimenta la meditación. Comienza tu día en el silencio interior. Gratuito\nEvery Mon, Tue, Wed, Fri · Mar 2 · 5:00 AM CST\n·\nOnline\nby México City Medi",
+  "events": [
+    {
+      "title": "Experimenta la meditación y comienza tu día en el silencio interior. Gratuito",
+      "url": "https://www.meetup.com/free-meditation-meetup-orlando/events/313292559/?recId=ed9a02e2-1ec5-4ac2-b837-9cc560f85717&recSource=ml-popular-events-nearby-online&searchId=5f4d27f1-ecda-4365-b3f6-2c80d4a2a07d&eventOrigin=find_page%24online",
+      "whenText": "Every Mon, Tue, Wed, Thu · Mar 2 · 6:00 AM EST",
+      "dtAttr": "2026-03-02T06:00:00-05:00[America/New_York]",
+      "attendeesText": "1 attendee",
+      "cardText": "Experimenta la meditación y comienza tu día en el silencio interior. Gratuito\nEvery Mon, Tue, Wed, Thu · Mar 2 · 6:00 AM EST\n·\nOnline\nby Orlando Free Meditation\n4.4\n1 attendee"
+    },
+    {
+      "title": "Experimenta la meditación. Comienza tu día en el silencio interior. Gratuito",
+      "url": "https://www.meetup.com/mexico-city-meditation-meetup/events/313292560/?recId=ed9a02e2-1ec5-4ac2-b837-9cc560f85717&recSource=ml-popular-events-nearby-online&searchId=5f4d27f1-ecda-4365-b3f6-2c80d4a2a07d&eventOrigin=find_page%24online",
+      "whenText": "Every Mon, Tue, Wed, Fri · Mar 2 · 5:00 AM CST",
+      "dtAttr": "2026-03-02T06:00:00-06:00[America/Mexico_City]",
+      "attendeesText": "1 attendee",
+      "cardText": "Experimenta la meditación. Comienza tu día en el silencio interior. Gratuito\nEvery Mon, Tue, Wed, Fri · Mar 2 · 5:00 AM CST\n·\nOnline\nby México City Meditación\n4.1\n1 attendee"
+    },
+    {
+      "title": "Monday Ducks in a Row: 30-Minutes to Prepare for the Week",
+      "url": "https://www.meetup.com/miracleday/events/313292250/?recId=ed9a02e2-1ec5-4ac2-b837-9cc560f85717&recSource=ml-popular-events-nearby-online&searchId=5f4d27f1-ecda-4365-b3f6-2c80d4a2a07d&eventOrigin=find_page%24online",
+      "whenText": "Every Mon · Mar 2 · 5:30 AM EST",
+      "dtAttr": "2026-03-02T05:30:00-05:00[America/New_York]",
+      "attendeesText": "3 attendees",
+      "cardText": "Monday Ducks in a Row: 30-Minutes to Prepare for the Week\nEvery Mon · Mar 2 · 5:30 AM EST\n·\nOnline\nby Miracle Day\n4.8\n3 attendees"
+    },
+    {
+      "title": "Yoga for Beginners",
+      "url": "https://www.meetup.com/meetup-group-aduujxwf/events/313505271/?recId=ed9a02e2-1ec5-4ac2-b837-9cc560f85717&recSource=ml-popular-events-nearby-online&searchId=5f4d27f1-ecda-4365-b3f6-2c80d4a2a07d&eventOrigin=find_page%24online",
+      "whenText": "Every Mon, Tue, Wed, Thu, Fri · Mar 2 · 5:00 AM CST",
+      "dtAttr": "2026-03-02T06:00:00-06:00[America/Chicago]",
+      "attendeesText": "2 attendees",
+      "cardText": "Yoga for Beginners\nEvery Mon, Tue, Wed, Thu, Fri · Mar 2 · 5:00 AM CST\n·\nOnline\nby Hatha Yoga for Beginners\n4.8\n2 attendees"
+    },
+    {
+      "title": "ONLINE ZENDO EVENT - The Ease and Joy of Morning Meditation",
+      "url": "https://www.meetup.com/jizo-an-zen-community/events/313504829/?recId=ed9a02e2-1ec5-4ac2-b837-9cc560f85717&recSource=ml-popular-events-nearby-online&searchId=5f4d27f1-ecda-4365-b3f6-2c80d4a2a07d&eventOrigin=find_page%24online",
+      "whenText": "Every Sun, Mon, Tue, Wed, Thu, Fri, Sat · Mar 2 · 5:30 AM EST",
+      "dtAttr": "2026-03-02T05:30:00-05:00[America/New_York]",
+      "attendeesText": "1 attendee",
+      "cardText": "ONLINE ZENDO EVENT - The Ease and Joy of Morning Meditation\nEvery Sun, Mon, Tue, Wed, Thu, Fri, Sat · Mar 2 · 5:30 AM EST\n·\nOnline\nby Jizo-an Zen Community\n4.9\n1 attendee"
+    },
+    {
+      "title": "🏡💪 Morning Moves – Let’s Get Stronger Together! 💪🏡",
+      "url": "https://www.meetup.com/totalupgradeinc/events/313292617/?recId=ed9a02e2-1ec5-4ac2-b837-9cc560f85717&recSource=ml-popular-events-nearby-online&searchId=5f4d27f1-ecda-4365-b3f6-2c80d4a2a07d&eventOrigin=find_page%24online",
+      "whenText": "Every Mon, Tue, Wed, Thu, Fri, Sat · Mar 2 · 6:00 AM EST",
+      "dtAttr": "2026-03-02T06:00:00-05:00[America/Toronto]",
+      "attendeesText": "1 attendee",
+      "cardText": "🏡💪 Morning Moves – Let’s Get Stronger Together! 💪🏡\nEvery Mon, Tue, Wed, Thu, Fri, Sat · Mar 2 · 6:00 AM EST\n·\nOnline\nby Total Upgrade Inc\n4.7\n1 attendee"
+    },
+    {
+      "title": "Meditation for Peace and Healing of the Earth",
+      "url": "https://www.meetup.com/pranic-healing-ohio/events/313292571/?recId=ed9a02e2-1ec5-4ac2-b837-9cc560f85717&recSource=ml-popular-events-nearby-online&searchId=5f4d27f1-ecda-4365-b3f6-2c80d4a2a07d&eventOrigin=find_page%24online",
+      "whenText": "Every Mon · Mar 2 · 6:00 AM EST",
+      "dtAttr": "2026-03-02T06:00:00-05:00[America/New_York]",
+      "attendeesText": "1 attendee",
+      "cardText": "Meditation for Peace and Healing of the Earth\nEvery Mon · Mar 2 · 6:00 AM EST\n·\nOnline\nby Pranic Healing Ohio\n4.5\n1 attendee"
+    },
+    {
+      "title": "5:30 AM Club",
+      "url": "https://www.meetup.com/5-30-am-club/events/313292281/?recId=ed9a02e2-1ec5-4ac2-b837-9cc560f85717&recSource=ml-popular-events-nearby-online&searchId=5f4d27f1-ecda-4365-b3f6-2c80d4a2a07d&eventOrigin=find_page%24online",
+      "whenText": "Every Mon, Tue, Wed, Thu, Fri · Mar 2 · 5:30 AM EST",
+      "dtAttr": "2026-03-02T05:30:00-05:00[America/New_York]",
+      "attendeesText": "1 attendee",
+      "cardText": "5:30 AM Club\nEvery Mon, Tue, Wed, Thu, Fri · Mar 2 · 5:30 AM EST\n·\nOnline\nby 5:30 AM Club\n4.9\n1 attendee"
+    }
+  ]
+}
