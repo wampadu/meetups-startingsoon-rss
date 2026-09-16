@@ -1,0 +1,833 @@
+{
+  "pageTitle": "Find Events & Groups | Meetup",
+  "url": "https://www.meetup.com/find/?dateRange=startingSoon&source=EVENTS&eventType=online",
+  "countAnchors": 103,
+  "extracted": 103,
+  "bodySnippet": "Skip to content\nHomepage\nEnglish\nLog in\nSign up\nEvents\nGroups\nEvents near Phoenix, AZ\nReset\nStarting soon\nAny size\nOnline\nWithin 18 miles\nAll events\nNew Groups\nSocial Activities\nHobbies & Passions\nSports & Fitness\nTravel & Outdoor\nCareer & Business\nTechnology\nCommunity & Environment\nIdentity & Language\nGames\nDancing\nSupport & Coaching\nMusic\nHealth & Wellbeing\nArt & Culture\nScience & Education\nPets & Animals\nReligion & Spirituality\nWriting\nParents & Family\nMovements & Politics\nAI in 2026: Prompt Engineering in ChatGPT and Codex\nTue, Sep 15 · 7:00 PM PDT\n·\nOnline\nby HumanSoulAI\n4.8\n214 attendees\nDBSA California Support Groups Online (Evenings)\nEvery Tue · Sep 15 · 6:30 PM PDT\n·\nOnline\nby DBSA CA Depression Bipolar Support Alliance California\n4.5\n3 attendees\nFREE Bipolar & Depression Peer-Run",
+  "events": [
+    {
+      "title": "AI in 2026: Prompt Engineering in ChatGPT and Codex",
+      "url": "https://www.meetup.com/humansoulai/events/315796740/?recId=4f6c6f96-7995-4806-9ae5-87d0d91b3f93&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "214 attendees",
+      "cardText": "AI in 2026: Prompt Engineering in ChatGPT and Codex\nTue, Sep 15 · 7:00 PM PDT\n·\nOnline\nby HumanSoulAI\n4.8\n214 attendees"
+    },
+    {
+      "title": "DBSA California Support Groups Online (Evenings)",
+      "url": "https://www.meetup.com/dbsa-ca-depression-bipolar-support-alliance-california/events/316291517/?recId=4f6c6f96-7995-4806-9ae5-87d0d91b3f93&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "3 attendees",
+      "cardText": "DBSA California Support Groups Online (Evenings)\nEvery Tue · Sep 15 · 6:30 PM PDT\n·\nOnline\nby DBSA CA Depression Bipolar Support Alliance California\n4.5\n3 attendees"
+    },
+    {
+      "title": "FREE Bipolar & Depression Peer-Run Support Group",
+      "url": "https://www.meetup.com/free-depression-bipolar-support-peer-run-group/events/316291395/?recId=4f6c6f96-7995-4806-9ae5-87d0d91b3f93&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue, Fri · Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "2 attendees",
+      "cardText": "FREE Bipolar & Depression Peer-Run Support Group\nEvery Tue, Fri · Sep 15 · 6:30 PM PDT\n·\nOnline\nby FREE Depression & Bipolar Support Peer-Run Group\n3.7\n2 attendees"
+    },
+    {
+      "title": "How to Get Over Negative Emotions",
+      "url": "https://www.meetup.com/get-over-negative-emotions/events/316392572/?recId=4f6c6f96-7995-4806-9ae5-87d0d91b3f93&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "13 attendees",
+      "cardText": "How to Get Over Negative Emotions\nTue, Sep 15 · 6:30 PM PDT\n·\nOnline\nby Get Over Negative Emotions\n2.8\n13 attendees"
+    },
+    {
+      "title": "Zoom Meetings - Los Angeles Branch of the American Chronic Pain Association",
+      "url": "https://www.meetup.com/los-angeles-chronic-pain-support-group/events/316291752/?recId=4f6c6f96-7995-4806-9ae5-87d0d91b3f93&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "2 attendees",
+      "cardText": "Zoom Meetings - Los Angeles Branch of the American Chronic Pain Association\nEvery Tue · Sep 15 · 7:00 PM PDT\n·\nOnline\nby The Los Angeles Chronic Pain Support Group\n4.8\n2 attendees"
+    },
+    {
+      "title": "Meetup to Improve Social Life and Reduce Stress",
+      "url": "https://www.meetup.com/meet-up-to-improve-social-life/events/316392756/?recId=4f6c6f96-7995-4806-9ae5-87d0d91b3f93&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "39 attendees",
+      "cardText": "Meetup to Improve Social Life and Reduce Stress\nTue, Sep 15 · 6:30 PM PDT\n·\nOnline\nby Meet Up to Improve Social Life\n3.9\n39 attendees"
+    },
+    {
+      "title": "Positive Friendships, Positive Life: Join Us!",
+      "url": "https://www.meetup.com/meetup-group-for-making-friends/events/316392585/?recId=4f6c6f96-7995-4806-9ae5-87d0d91b3f93&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "23 attendees",
+      "cardText": "Positive Friendships, Positive Life: Join Us!\nTue, Sep 15 · 6:30 PM PDT\n·\nOnline\nby Meetup Group for Making Friends\n4.3\n23 attendees"
+    },
+    {
+      "title": "FREE Depression & Bipolar Peer-Run Support Group",
+      "url": "https://www.meetup.com/meetup-group-cppenrxm/events/316291397/?recId=4f6c6f96-7995-4806-9ae5-87d0d91b3f93&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue, Fri · Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "1 attendee",
+      "cardText": "FREE Depression & Bipolar Peer-Run Support Group\nEvery Tue, Fri · Sep 15 · 6:30 PM PDT\n·\nOnline\nby DBSA Depression Connection\n4.7\n1 attendee"
+    },
+    {
+      "title": "The Chemistry of Conversation",
+      "url": "https://www.meetup.com/the-social-chemistry-club/events/316392602/?recId=4f6c6f96-7995-4806-9ae5-87d0d91b3f93&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "13 attendees",
+      "cardText": "The Chemistry of Conversation\nTue, Sep 15 · 6:30 PM PDT\n·\nOnline\nby The Social Chemistry Club\n4.2\n13 attendees"
+    },
+    {
+      "title": "Friends & Family Book Club",
+      "url": "https://www.meetup.com/dbsa-san-diego/events/316291753/?recId=4f6c6f96-7995-4806-9ae5-87d0d91b3f93&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "5 attendees",
+      "cardText": "Friends & Family Book Club\nEvery Tue · Sep 15 · 7:00 PM PDT\n·\nOnline\nby Depression & Bipolar Support Alliance (DBSA San Diego)\n4.7\n5 attendees"
+    },
+    {
+      "title": "Free English Classes - Online 6.30-8.45pm PDT",
+      "url": "https://www.meetup.com/meetup-group-pucekgne/events/316291407/?recId=4f6c6f96-7995-4806-9ae5-87d0d91b3f93&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Mon, Tue, Wed, Thu · Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "3 attendees",
+      "cardText": "Free English Classes - Online 6.30-8.45pm PDT\nEvery Mon, Tue, Wed, Thu · Sep 15 · 6:30 PM PDT\n·\nOnline\nby FREE English classes in San Diego\n4.5\n3 attendees"
+    },
+    {
+      "title": "New People, New Experiences: Overcome Anxiety",
+      "url": "https://www.meetup.com/new-people-new-experiences/events/316392698/?recId=4f6c6f96-7995-4806-9ae5-87d0d91b3f93&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "17 attendees",
+      "cardText": "New People, New Experiences: Overcome Anxiety\nTue, Sep 15 · 6:30 PM PDT\n·\nOnline\nby New People New Experiences\n3.1\n17 attendees"
+    },
+    {
+      "title": "Cutting Through Spiritual Materialism Book Club (Zoom)",
+      "url": "https://www.meetup.com/657633/events/316291723/?recId=b7301a81-34af-4af4-afc0-2bed9f44dfe8&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every two weeks on Tue · Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "1 attendee",
+      "cardText": "Cutting Through Spiritual Materialism Book Club (Zoom)\nEvery two weeks on Tue · Sep 15 · 7:00 PM PDT\n·\nOnline\nby Tuesday Night Book Club (Zoom): Cutting Through Spiritual...\n1 attendee"
+    },
+    {
+      "title": "Mindfulness Tuesday Meditation: Cultivating Consciousness",
+      "url": "https://www.meetup.com/meditate-with-a-monk-in-sonoma-county/events/316291787/?recId=b7301a81-34af-4af4-afc0-2bed9f44dfe8&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "3 attendees",
+      "cardText": "Mindfulness Tuesday Meditation: Cultivating Consciousness\nEvery Tue · Sep 15 · 7:00 PM PDT\n·\nOnline\nby Meditate with a Monk in Sonoma County\n4.8\n3 attendees"
+    },
+    {
+      "title": "Kickstart Your Career in AI — Info Session for Aspiring AI Professionals",
+      "url": "https://www.meetup.com/ml-ai-learning-circle/events/316548996/?recId=b7301a81-34af-4af4-afc0-2bed9f44dfe8&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "2 attendees",
+      "cardText": "Kickstart Your Career in AI — Info Session for Aspiring AI Professionals\nTue, Sep 15 · 6:30 PM PDT\n·\nOnline\nby AI Builders Community\n4.6\n2 attendees"
+    },
+    {
+      "title": "Experience Momentum – No Commitment, Just Connection",
+      "url": "https://www.meetup.com/meetup-group-momentum-for-men/events/316291818/?recId=b7301a81-34af-4af4-afc0-2bed9f44dfe8&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "2 attendees",
+      "cardText": "Experience Momentum – No Commitment, Just Connection\nEvery Tue · Sep 15 · 7:00 PM PDT\n·\nOnline\nby Momentum for Men\n2 attendees"
+    },
+    {
+      "title": "2-Busy-2-Write Writers' Group",
+      "url": "https://www.meetup.com/matson_writing-excursions/events/316291347/?recId=b7301a81-34af-4af4-afc0-2bed9f44dfe8&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 22 · 6:45 PM PDT",
+      "dtAttr": "2026-09-22T21:45:00-07:00[America/Los_Angeles]",
+      "attendeesText": "5 attendees",
+      "cardText": "2-Busy-2-Write Writers' Group\nEvery Tue · Sep 22 · 6:45 PM PDT\n·\nOnline\nby Writing Excursions In The Tradition Of Clive Matson\n4.7\n5 attendees"
+    },
+    {
+      "title": "Finding Your Voice",
+      "url": "https://www.meetup.com/finding-your-voice-communication-for-introverted-people/events/316392750/?recId=b7301a81-34af-4af4-afc0-2bed9f44dfe8&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "17 attendees",
+      "cardText": "Finding Your Voice\nTue, Sep 15 · 6:30 PM PDT\n·\nOnline\nby Finding Your Voice: Communication for Introverted People\n3.7\n17 attendees"
+    },
+    {
+      "title": "Healthy Social Mindset",
+      "url": "https://www.meetup.com/healthy-social-mindset/events/316392448/?recId=b7301a81-34af-4af4-afc0-2bed9f44dfe8&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "13 attendees",
+      "cardText": "Healthy Social Mindset\nTue, Sep 15 · 6:30 PM PDT\n·\nOnline\nby Healthy Social Mindset\n13 attendees"
+    },
+    {
+      "title": "\"Keeping a Dream Journal\" – Spiritual Conversation (online)",
+      "url": "https://www.meetup.com/spokane-spiritual-experiences/events/316275189/?recId=b7301a81-34af-4af4-afc0-2bed9f44dfe8&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "6 attendees",
+      "cardText": "\"Keeping a Dream Journal\" – Spiritual Conversation (online)\nTue, Sep 15 · 6:30 PM PDT\n·\nOnline\nby Spokane Spiritual Experiences Meetup\n4.7\n6 attendees"
+    },
+    {
+      "title": "Active Meditation Practice (Dharma Recovery)",
+      "url": "https://www.meetup.com/living-meditation-recovery-practice-group/events/316291848/?recId=b7301a81-34af-4af4-afc0-2bed9f44dfe8&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "5 attendees",
+      "cardText": "Active Meditation Practice (Dharma Recovery)\nEvery Tue · Sep 15 · 7:00 PM PDT\n·\nOnline\nby Living Meditation Recovery Practice Group\n4.7\n5 attendees"
+    },
+    {
+      "title": "Stress-Free Communication Workshop",
+      "url": "https://www.meetup.com/new-adventures-new-friends/events/316392643/?recId=b7301a81-34af-4af4-afc0-2bed9f44dfe8&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "14 attendees",
+      "cardText": "Stress-Free Communication Workshop\nTue, Sep 15 · 6:30 PM PDT\n·\nOnline\nby New Friends, New Adventures\n3.4\n14 attendees"
+    },
+    {
+      "title": "Psychic Fair - Receive a Healing and Get Your Questions Answered",
+      "url": "https://www.meetup.com/portland-intuitive-living/events/314410499/?recId=b7301a81-34af-4af4-afc0-2bed9f44dfe8&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 7:30 PM PDT",
+      "dtAttr": "2026-09-15T22:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "4 attendees",
+      "cardText": "Psychic Fair - Receive a Healing and Get Your Questions Answered\nTue, Sep 15 · 7:30 PM PDT\n·\nOnline\nby Intuitive Living, Portland\n4.8\n4 attendees"
+    },
+    {
+      "title": "Group Psychic Reading! First Student Reading is FREE",
+      "url": "https://www.meetup.com/portland-intuitive-living/events/315064772/?recId=b7301a81-34af-4af4-afc0-2bed9f44dfe8&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 7:30 PM PDT",
+      "dtAttr": "2026-09-15T22:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "2 attendees",
+      "cardText": "Waitlist\nGroup Psychic Reading! First Student Reading is FREE\nEvery Tue · Sep 15 · 7:30 PM PDT\n·\nOnline\nby Intuitive Living, Portland\n4.8\n2 attendees"
+    },
+    {
+      "title": "Secured Mortgage Notes",
+      "url": "https://www.meetup.com/secured-mortgage-notes/events/316291762/?recId=38d29404-7826-427f-b233-486a7c346ca9&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "1 attendee",
+      "cardText": "Secured Mortgage Notes\nEvery Tue · Sep 15 · 7:00 PM PDT\n·\nOnline\nby Secured Mortgage Notes\n1 attendee"
+    },
+    {
+      "title": "Intelligent Love: Setting the Foundation for The Best Relationship of Your Life",
+      "url": "https://www.meetup.com/intelligent-dating-and-relationships-meetup-group/events/312763224/?recId=38d29404-7826-427f-b233-486a7c346ca9&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every two weeks on Tue · Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "30 attendees",
+      "cardText": "Intelligent Love: Setting the Foundation for The Best Relationship of Your Life\nEvery two weeks on Tue · Sep 15 · 7:00 PM PDT\n·\nOnline\nby Intelligent Dating & Relationships' Meetup Group\n4.5\n30 attendees"
+    },
+    {
+      "title": "Social Skills & Communication: Overcome Social Anxiety",
+      "url": "https://www.meetup.com/social-skills-communication/events/316392656/?recId=38d29404-7826-427f-b233-486a7c346ca9&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "60 attendees",
+      "cardText": "Social Skills & Communication: Overcome Social Anxiety\nTue, Sep 15 · 6:30 PM PDT\n·\nOnline\nby Social Skills & Communication\n3.9\n60 attendees"
+    },
+    {
+      "title": "Confident Conversations & New Friends",
+      "url": "https://www.meetup.com/from-self-doubt-to-self-belief/events/316392685/?recId=38d29404-7826-427f-b233-486a7c346ca9&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "16 attendees",
+      "cardText": "Confident Conversations & New Friends\nTue, Sep 15 · 6:30 PM PDT\n·\nOnline\nby From Self-Doubt to Self-Belief\n16 attendees"
+    },
+    {
+      "title": "Good People, Good Times",
+      "url": "https://www.meetup.com/real-talk-real-friends/events/316392722/?recId=38d29404-7826-427f-b233-486a7c346ca9&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "73 attendees",
+      "cardText": "Good People, Good Times\nTue, Sep 15 · 6:30 PM PDT\n·\nOnline\nby Real Talk, Real Friends\n3.5\n73 attendees"
+    },
+    {
+      "title": "NLP and Hypnosis for Success Meetup",
+      "url": "https://www.meetup.com/nlp-hypnosis-for-success/events/316291841/?recId=38d29404-7826-427f-b233-486a7c346ca9&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 7:00 PM MST",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Phoenix]",
+      "attendeesText": "6 attendees",
+      "cardText": "NLP and Hypnosis for Success Meetup\nEvery Tue · Sep 15 · 7:00 PM MST\n·\nOnline\nby NLP and Hypnosis for Success\n4.9\n6 attendees"
+    },
+    {
+      "title": "Dating & Romance & Anxiety",
+      "url": "https://www.meetup.com/dating-romance/events/316392617/?recId=38d29404-7826-427f-b233-486a7c346ca9&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "14 attendees",
+      "cardText": "Dating & Romance & Anxiety\nTue, Sep 15 · 6:30 PM PDT\n·\nOnline\nby Dating and Romance\n3.5\n14 attendees"
+    },
+    {
+      "title": "The Entrepreneur’s Mindset: Stress",
+      "url": "https://www.meetup.com/the-entrepreneur-s-mindset/events/316392492/?recId=38d29404-7826-427f-b233-486a7c346ca9&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "13 attendees",
+      "cardText": "The Entrepreneur’s Mindset: Stress\nTue, Sep 15 · 6:30 PM PDT\n·\nOnline\nby The Entrepreneur’s Mindset\n13 attendees"
+    },
+    {
+      "title": "30 minutes of honest contact with oneself, in the presence of others.",
+      "url": "https://www.meetup.com/meetup-group-tcscdurt/events/316494538/?recId=38d29404-7826-427f-b233-486a7c346ca9&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Mon, Tue, Wed, Thu · Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "2 attendees",
+      "cardText": "30 minutes of honest contact with oneself, in the presence of others.\nEvery Mon, Tue, Wed, Thu · Sep 15 · 7:00 PM PDT\n·\nOnline\nby Holding Space\n4.8\n2 attendees"
+    },
+    {
+      "title": "The Critiquery - Online Writer's Critique Groups",
+      "url": "https://www.meetup.com/online-writers-poets-critique-groups-and-open-mics/events/316291685/?recId=38d29404-7826-427f-b233-486a7c346ca9&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "2 attendees",
+      "cardText": "The Critiquery - Online Writer's Critique Groups\nEvery Tue · Sep 15 · 7:00 PM PDT\n·\nOnline\nby Online Writer's/Poet's Critique Groups and Open Mics\n4.7\n2 attendees"
+    },
+    {
+      "title": "Positive Psychology Salon: Socioeconomic Status",
+      "url": "https://www.meetup.com/south-bay-positive-psychology-salon/events/311660461/?recId=38d29404-7826-427f-b233-486a7c346ca9&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 7:30 PM PDT",
+      "dtAttr": "2026-09-15T22:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "25 attendees",
+      "cardText": "Positive Psychology Salon: Socioeconomic Status\nEvery Tue · Sep 15 · 7:30 PM PDT\n·\nOnline\nby South Bay Positive Psychology Salon\n4.6\n25 attendees"
+    },
+    {
+      "title": "Archangelic Meet and Greet",
+      "url": "https://www.meetup.com/advanced-metaphysics-and-intuitive-empowerment/events/316514767/?recId=2c7450d7-7346-4ec5-a266-ea7d29d35572&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "3 attendees",
+      "cardText": "$45.00\nArchangelic Meet and Greet\nTue, Sep 15 · 7:00 PM PDT\n·\nOnline\nby Advanced Metaphysics and Intuitive Empowerment\n4.8\n3 attendees"
+    },
+    {
+      "title": "The Self-Improvement Project (Wednesday)",
+      "url": "https://www.meetup.com/self-improvement-wednesdays/events/316392404/?recId=2c7450d7-7346-4ec5-a266-ea7d29d35572&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "13 attendees",
+      "cardText": "The Self-Improvement Project (Wednesday)\nTue, Sep 15 · 6:30 PM PDT\n·\nOnline\nby Self-Improvement Wednesdays\n13 attendees"
+    },
+    {
+      "title": "Long Term Care Rider",
+      "url": "https://www.meetup.com/think-and-grow-rich-the-legacy-mastermind-group/events/316209393/?recId=2c7450d7-7346-4ec5-a266-ea7d29d35572&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "2 attendees",
+      "cardText": "Long Term Care Rider\nTue, Sep 15 · 7:00 PM PDT\n·\nOnline\nby Think and Grow Rich: The Legacy Mastermind Group\n2 attendees"
+    },
+    {
+      "title": "Mindfulness Meditation Tuesday Evenings Online",
+      "url": "https://www.meetup.com/weekly-tuesday-evening-insight-meditation-group/events/316291764/?recId=2c7450d7-7346-4ec5-a266-ea7d29d35572&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "2 attendees",
+      "cardText": "Mindfulness Meditation Tuesday Evenings Online\nEvery Tue · Sep 15 · 7:00 PM PDT\n·\nOnline\nby Tuesday Evening Mindful Meditation Group Online\n4.6\n2 attendees"
+    },
+    {
+      "title": "1 hour Guided Meditation | Beginners online Class",
+      "url": "https://www.meetup.com/sahajayogameditationla/events/316291632/?recId=2c7450d7-7346-4ec5-a266-ea7d29d35572&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "2 attendees",
+      "cardText": "1 hour Guided Meditation | Beginners online Class\nEvery Tue · Sep 15 · 7:00 PM PDT\n·\nOnline\nby Sahaja Yoga Free Meditation\n4.6\n2 attendees"
+    },
+    {
+      "title": "Castro Valley Toastmasters Club",
+      "url": "https://www.meetup.com/d57_toastmasters_clubs_meetup_group/events/316291626/?recId=2c7450d7-7346-4ec5-a266-ea7d29d35572&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "2 attendees",
+      "cardText": "Castro Valley Toastmasters Club\nEvery Tue · Sep 15 · 7:00 PM PDT\n·\nOnline\nby D206 Toastmasters - Clubs Meetup Group\n4.9\n2 attendees"
+    },
+    {
+      "title": "Another evening of speech & debate!",
+      "url": "https://www.meetup.com/agile-articulators-toastmasters-club/events/316291733/?recId=2c7450d7-7346-4ec5-a266-ea7d29d35572&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "1 attendee",
+      "cardText": "Another evening of speech & debate!\nEvery Tue · Sep 15 · 7:00 PM PDT\n·\nOnline\nby Agile Articulators Speech & Debate Toastmasters Club\n4.9\n1 attendee"
+    },
+    {
+      "title": "Bible Authority - You Can Perceive My Understanding - Lesson 3",
+      "url": "https://www.meetup.com/north-seattle-bible-study-meetup/events/315704485/?recId=2c7450d7-7346-4ec5-a266-ea7d29d35572&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "3 attendees",
+      "cardText": "Bible Authority - You Can Perceive My Understanding - Lesson 3\nEvery Tue · Sep 15 · 7:00 PM PDT\n·\nOnline\nby North Seattle Bible Study Meetup\n4.9\n3 attendees"
+    },
+    {
+      "title": "Relationship and Friendship Creators",
+      "url": "https://www.meetup.com/friendship-and-relationship-creators/events/316392737/?recId=2c7450d7-7346-4ec5-a266-ea7d29d35572&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "13 attendees",
+      "cardText": "Relationship and Friendship Creators\nTue, Sep 15 · 6:30 PM PDT\n·\nOnline\nby Friendship and Relationship Creators\n13 attendees"
+    },
+    {
+      "title": "Poetry Writer's Workshop",
+      "url": "https://www.meetup.com/online-writers-poets-critique-groups-and-open-mics/events/316291492/?recId=2c7450d7-7346-4ec5-a266-ea7d29d35572&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "5 attendees",
+      "cardText": "Poetry Writer's Workshop\nEvery Tue · Sep 15 · 6:30 PM PDT\n·\nOnline\nby Online Writer's/Poet's Critique Groups and Open Mics\n4.7\n5 attendees"
+    },
+    {
+      "title": "Having Hope in these Challenging times",
+      "url": "https://www.meetup.com/bay-area-solarpunks/events/316248572/?recId=2c7450d7-7346-4ec5-a266-ea7d29d35572&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 7:30 PM PDT",
+      "dtAttr": "2026-09-15T22:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "21 attendees",
+      "cardText": "Having Hope in these Challenging times\nTue, Sep 15 · 7:30 PM PDT\n·\nOnline\nby Bay Area Solarpunks\n4.6\n21 attendees"
+    },
+    {
+      "title": "Felicita Toastmasters Club in Escondido",
+      "url": "https://www.meetup.com/san-diego-district-5-toastmasters-meetup-group/events/316291720/?recId=2c7450d7-7346-4ec5-a266-ea7d29d35572&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "3 attendees",
+      "cardText": "Felicita Toastmasters Club in Escondido\nEvery Tue · Sep 15 · 7:00 PM PDT\n·\nOnline\nby District 5 Toastmasters Meetup Group\n4.8\n3 attendees"
+    },
+    {
+      "title": "Mediumship Development Circle - Online",
+      "url": "https://www.meetup.com/celebratelife-progressive-spiritualist-community/events/316291893/?recId=693f8f49-9389-4ef9-b72e-33d056e23e16&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "2 attendees",
+      "cardText": "$10.00\nMediumship Development Circle - Online\nEvery Tue · Sep 15 · 7:00 PM PDT\n·\nOnline\nby CelebrateLIFE! Progressive Spiritualist Community\n5.0\n2 attendees"
+    },
+    {
+      "title": "Tapping and Rocking Into Resilience",
+      "url": "https://www.meetup.com/sourcings/events/316291443/?recId=693f8f49-9389-4ef9-b72e-33d056e23e16&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 7:30 PM MDT",
+      "dtAttr": "2026-09-15T21:30:00-06:00[America/Denver]",
+      "attendeesText": "1 attendee",
+      "cardText": "Tapping and Rocking Into Resilience\nEvery Tue · Sep 15 · 7:30 PM MDT\n·\nOnline\nby TogetherSource\n4.8\n1 attendee"
+    },
+    {
+      "title": "The Alignment Problem: Machine Learning and Human Values",
+      "url": "https://www.meetup.com/curiosity-connections/events/316501171/?recId=693f8f49-9389-4ef9-b72e-33d056e23e16&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "12 attendees",
+      "cardText": "The Alignment Problem: Machine Learning and Human Values\nTue, Sep 15 · 7:00 PM PDT\n·\nOnline\nby Curiosity Connections\n4.8\n12 attendees"
+    },
+    {
+      "title": "The Renewable Energy Revolution",
+      "url": "https://www.meetup.com/sierra-club-outings-western-washington/events/316355602/?recId=693f8f49-9389-4ef9-b72e-33d056e23e16&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "1 attendee",
+      "cardText": "The Renewable Energy Revolution\nTue, Sep 15 · 7:00 PM PDT\n·\nOnline\nby Sierra Club Outings, Western Washington\n4.8\n1 attendee"
+    },
+    {
+      "title": "Discussion - Topic: React JS",
+      "url": "https://www.meetup.com/lajugstudygroup/events/316244803/?recId=693f8f49-9389-4ef9-b72e-33d056e23e16&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 7:30 PM PDT",
+      "dtAttr": "2026-09-15T22:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "11 attendees",
+      "cardText": "Discussion - Topic: React JS\nTue, Sep 15 · 7:30 PM PDT\n·\nOnline\nby DevTalk LA\n4.8\n11 attendees"
+    },
+    {
+      "title": "(Virtual) Life after 40 - A Men's Discussion Group (Zoom)",
+      "url": "https://www.meetup.com/life-after-40-a-mens-group/events/316276698/?recId=693f8f49-9389-4ef9-b72e-33d056e23e16&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Monthly · Tue, Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "5 attendees",
+      "cardText": "(Virtual) Life after 40 - A Men's Discussion Group (Zoom)\nMonthly · Tue, Sep 15 · 7:00 PM PDT\n·\nOnline\nby Life After 40 - Gay, Bi, Trans, Queer, Pan Men's Group\n4.7\n5 attendees"
+    },
+    {
+      "title": "9/11: Did America Have It Coming?",
+      "url": "https://www.meetup.com/straight-talk-about-politics-and-more/events/316504133/?recId=693f8f49-9389-4ef9-b72e-33d056e23e16&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "39 attendees",
+      "cardText": "9/11: Did America Have It Coming?\nTue, Sep 15 · 6:30 PM PDT\n·\nOnline\nby Straight Talk About Politics\n4.7\n39 attendees"
+    },
+    {
+      "title": "Parental alienation support group meeting",
+      "url": "https://www.meetup.com/parent-alienation/events/316291542/?recId=693f8f49-9389-4ef9-b72e-33d056e23e16&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "1 attendee",
+      "cardText": "Parental alienation support group meeting\nEvery Tue · Sep 15 · 6:30 PM PDT\n·\nOnline\nby Parent Alienation\n4.7\n1 attendee"
+    },
+    {
+      "title": "📚 AZ Dems Readers & Leaders Book Club",
+      "url": "https://www.meetup.com/azld12dems/events/316291892/?recId=693f8f49-9389-4ef9-b72e-33d056e23e16&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Monthly · Tue, Sep 15 · 7:00 PM MST",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Phoenix]",
+      "attendeesText": "2 attendees",
+      "cardText": "📚 AZ Dems Readers & Leaders Book Club\nMonthly · Tue, Sep 15 · 7:00 PM MST\n·\nOnline\nby AzLD12 Dems Meetups\n4.9\n2 attendees"
+    },
+    {
+      "title": "ARMSTRONG TOASTMASTERS - Small but Mighty",
+      "url": "https://www.meetup.com/central-okanagan-toastmasters/events/316291705/?recId=693f8f49-9389-4ef9-b72e-33d056e23e16&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 7:15 PM PDT",
+      "dtAttr": "2026-09-15T22:15:00-07:00[America/Vancouver]",
+      "attendeesText": "1 attendee",
+      "cardText": "ARMSTRONG TOASTMASTERS - Small but Mighty\nEvery Tue · Sep 15 · 7:15 PM PDT\n·\nOnline\nby Okanagan Toastmasters\n4.9\n1 attendee"
+    },
+    {
+      "title": "Andrey presents \"Refusal geometry reflects refusal training\"",
+      "url": "https://www.meetup.com/deep-learning-sf/events/316521524/?recId=693f8f49-9389-4ef9-b72e-33d056e23e16&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "13 attendees",
+      "cardText": "Andrey presents \"Refusal geometry reflects refusal training\"\nTue, Sep 15 · 6:30 PM PDT\n·\nOnline\nby Deep Learning Study Group (San Francisco)\n4.8\n13 attendees"
+    },
+    {
+      "title": "Boise FREE ONLINE HEALING CIRCLE with Spiritual Healer-Intuitive Mark Earlix",
+      "url": "https://www.meetup.com/boise-spiritual-matters-with-healer-intuitive-mark-earlix/events/316188037/?recId=693f8f49-9389-4ef9-b72e-33d056e23e16&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 7:30 PM MDT",
+      "dtAttr": "2026-09-15T21:30:00-06:00[America/Denver]",
+      "attendeesText": "3 attendees",
+      "cardText": "Boise FREE ONLINE HEALING CIRCLE with Spiritual Healer-Intuitive Mark Earlix\nEvery Tue · Sep 15 · 7:30 PM MDT\n·\nOnline\nby Boise Spiritual Matters with Healer-Intuitive Mark Earlix\n3 attendees"
+    },
+    {
+      "title": "South Bay Map Night",
+      "url": "https://www.meetup.com/bay-area-openstreetmappers/events/316405090/?recId=6a8c2f48-34ac-4123-9002-916028782ab1&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "3 attendees",
+      "cardText": "South Bay Map Night\nTue, Sep 15 · 7:00 PM PDT\n·\nOnline\nby Bay Area OpenStreetMappers\n4.5\n3 attendees"
+    },
+    {
+      "title": "Gearbreakers by Zoe Hana Mikuta",
+      "url": "https://www.meetup.com/burbank-ladies-sci-fi-fantasy-book-club/events/315507785/?recId=6a8c2f48-34ac-4123-9002-916028782ab1&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "13 attendees",
+      "cardText": "Gearbreakers by Zoe Hana Mikuta\nTue, Sep 15 · 7:00 PM PDT\n·\nOnline\nby Burbank Ladies Sci-Fi/Fantasy Book Club\n4.9\n13 attendees"
+    },
+    {
+      "title": "Tuesday Night Shamanic Practice",
+      "url": "https://www.meetup.com/rising-fire-shamanism-meetup-group/events/316087844/?recId=6a8c2f48-34ac-4123-9002-916028782ab1&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "1 attendee",
+      "cardText": "$10.00\nTuesday Night Shamanic Practice\nTue, Sep 15 · 7:00 PM PDT\n·\nOnline\nby Rising Fire\n4.9\n1 attendee"
+    },
+    {
+      "title": "Thriving with Chronic Illness/Disability",
+      "url": "https://www.meetup.com/finding-female-friends-past-fifty/events/316373370/?recId=6a8c2f48-34ac-4123-9002-916028782ab1&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "2 attendees",
+      "cardText": "Thriving with Chronic Illness/Disability\nTue, Sep 15 · 7:00 PM PDT\n·\nOnline\nby Finding Female Friends >50® (National)\n4.8\n2 attendees"
+    },
+    {
+      "title": "Music Production Workshop: Track Feedback Night",
+      "url": "https://www.meetup.com/siliconvalleymusicproduction/events/315829784/?recId=6a8c2f48-34ac-4123-9002-916028782ab1&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every two weeks on Tue · Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "12 attendees",
+      "cardText": "Music Production Workshop: Track Feedback Night\nEvery two weeks on Tue · Sep 15 · 7:00 PM PDT\n·\nOnline\nby Silicon Valley Music Production Workshop\n4.9\n12 attendees"
+    },
+    {
+      "title": "One on one tutoring",
+      "url": "https://www.meetup.com/los-angeles-french-students-meetup-group/events/316494382/?recId=6a8c2f48-34ac-4123-9002-916028782ab1&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Sun, Mon, Tue, Wed, Thu, Fri, Sat · Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "1 attendee",
+      "cardText": "$20.00\nOne on one tutoring\nEvery Sun, Mon, Tue, Wed, Thu, Fri, Sat · Sep 15 · 6:30 PM PDT\n·\nOnline\nby French and American Sign Language tutoring\n1 attendee"
+    },
+    {
+      "title": "Evolve Shades of Sisterhood (Virtual)",
+      "url": "https://www.meetup.com/evolve-dayton-business-development/events/316291735/?recId=6a8c2f48-34ac-4123-9002-916028782ab1&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 10:00 PM EDT",
+      "dtAttr": "2026-09-15T22:00:00-04:00[America/New_York]",
+      "attendeesText": "2 attendees",
+      "cardText": "Evolve Shades of Sisterhood (Virtual)\nEvery Tue · Sep 15 · 10:00 PM EDT\n·\nOnline\nby Evolve Women's Collective: Dayton, OH\n4.4\n2 attendees"
+    },
+    {
+      "title": "[5e] Eye of Vecna - Adventurers League D&D - Ongoing",
+      "url": "https://www.meetup.com/san-francisco-lgbt-dungeons-and-dragons-group/events/316291422/?recId=6a8c2f48-34ac-4123-9002-916028782ab1&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "1 attendee",
+      "cardText": "[5e] Eye of Vecna - Adventurers League D&D - Ongoing\nEvery Tue · Sep 15 · 6:30 PM PDT\n·\nOnline\nby San Francisco LGBT Dungeons and Dragons Group\n4.6\n1 attendee"
+    },
+    {
+      "title": "The Wake-Up Call",
+      "url": "https://www.meetup.com/https-www-radhuleweiningerphd-com-calendar-meditation/events/316291807/?recId=6a8c2f48-34ac-4123-9002-916028782ab1&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "2 attendees",
+      "cardText": "The Wake-Up Call\nEvery Tue · Sep 15 · 7:00 PM PDT\n·\nOnline\nby Aware Awake: Mindfulness and Awake Awareness\n4.8\n2 attendees"
+    },
+    {
+      "title": "Online Ukulele Tuesday 6:30pm",
+      "url": "https://www.meetup.com/sdukulele/events/316549072/?recId=6a8c2f48-34ac-4123-9002-916028782ab1&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "10 attendees",
+      "cardText": "Online Ukulele Tuesday 6:30pm\nTue, Sep 15 · 6:30 PM PDT\n·\nOnline\nby Hau`oli Strummers (Happy Strummers) 🌺\n4.8\n10 attendees"
+    },
+    {
+      "title": "Mindfulness Practice and Discussion for Everyone",
+      "url": "https://www.meetup.com/phoenix-mindfulness-based-living/events/316291629/?recId=6a8c2f48-34ac-4123-9002-916028782ab1&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue, Thu · Sep 15 · 7:00 PM MST",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Phoenix]",
+      "attendeesText": "1 attendee",
+      "cardText": "Mindfulness Practice and Discussion for Everyone\nEvery Tue, Thu · Sep 15 · 7:00 PM MST\n·\nOnline\nby Phoenix Mindfulness Based Living\n4.9\n1 attendee"
+    },
+    {
+      "title": "Beyond Breath",
+      "url": "https://www.meetup.com/yoga-sf/events/316291432/?recId=d00113b3-4b1e-436a-8a3a-aac9d569591d&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "2 attendees",
+      "cardText": "Beyond Breath\nEvery Tue · Sep 15 · 6:30 PM PDT\n·\nOnline\nby The San Francisco Yoga Meetup\n4.5\n2 attendees"
+    },
+    {
+      "title": "Angel Card Intuitive Reading Certification Class (Online)",
+      "url": "https://www.meetup.com/spiritual-growth-spiritual-guidance-events/events/316533166/?recId=d00113b3-4b1e-436a-8a3a-aac9d569591d&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "1 attendee",
+      "cardText": "$30.00\nAngel Card Intuitive Reading Certification Class (Online)\nTue, Sep 15 · 7:00 PM PDT\n·\nOnline\nby Spiritual Growth and Guidance Events\n4.9\n1 attendee"
+    },
+    {
+      "title": "Angel Card Intuitive Reading Certification Class (Online)",
+      "url": "https://www.meetup.com/metaphysical-meet-up-lb/events/316533148/?recId=d00113b3-4b1e-436a-8a3a-aac9d569591d&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "2 attendees",
+      "cardText": "$30.00\nAngel Card Intuitive Reading Certification Class (Online)\nTue, Sep 15 · 7:00 PM PDT\n·\nOnline\nby Metaphysical Matters\n4.8\n2 attendees"
+    },
+    {
+      "title": "Chinese language Guided Meditation Sessions",
+      "url": "https://www.meetup.com/shreveportmeditation/events/316291703/?recId=d00113b3-4b1e-436a-8a3a-aac9d569591d&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 9:00 PM CDT",
+      "dtAttr": "2026-09-15T22:00:00-05:00[America/Chicago]",
+      "attendeesText": "1 attendee",
+      "cardText": "Chinese language Guided Meditation Sessions\nEvery Tue · Sep 15 · 9:00 PM CDT\n·\nOnline\nby Shreveport Meditation Meetup - Free online sessions\n4.4\n1 attendee"
+    },
+    {
+      "title": "New Horizons Toastmasters wants to meet you!",
+      "url": "https://www.meetup.com/district-3-toastmasters/events/316291755/?recId=d00113b3-4b1e-436a-8a3a-aac9d569591d&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 7:00 PM MST",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Phoenix]",
+      "attendeesText": "2 attendees",
+      "cardText": "New Horizons Toastmasters wants to meet you!\nEvery Tue · Sep 15 · 7:00 PM MST\n·\nOnline\nby District 3 Toastmasters\n4.7\n2 attendees"
+    },
+    {
+      "title": "Milpitas Friendly Toasters, online meeting and debate",
+      "url": "https://www.meetup.com/milpitas-friendly-toasters/events/316494402/?recId=d00113b3-4b1e-436a-8a3a-aac9d569591d&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "6 attendees",
+      "cardText": "Milpitas Friendly Toasters, online meeting and debate\nEvery Tue · Sep 15 · 6:30 PM PDT\n·\nOnline\nby Milpitas Friendly Toasters Meetup Group\n5.0\n6 attendees"
+    },
+    {
+      "title": "DWS Writing Critique Meetup",
+      "url": "https://www.meetup.com/writers-972/events/316291847/?recId=d00113b3-4b1e-436a-8a3a-aac9d569591d&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "5 attendees",
+      "cardText": "DWS Writing Critique Meetup\nEvery Tue · Sep 15 · 7:00 PM PDT\n·\nOnline\nby The Davis Writers Salon\n4.9\n5 attendees"
+    },
+    {
+      "title": "Practice Communication & Make Virtual Friends Worldwide",
+      "url": "https://www.meetup.com/tellmeastorytoastmasters/events/316518980/?recId=d00113b3-4b1e-436a-8a3a-aac9d569591d&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "3 attendees",
+      "cardText": "Practice Communication & Make Virtual Friends Worldwide\nTue, Sep 15 · 7:00 PM PDT\n·\nOnline\nby Tell Me A Story Toastmasters\n4.8\n3 attendees"
+    },
+    {
+      "title": "Seattle Zoom Bible Study",
+      "url": "https://www.meetup.com/seattle-bible-study/events/316520700/?recId=d00113b3-4b1e-436a-8a3a-aac9d569591d&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "2 attendees",
+      "cardText": "Seattle Zoom Bible Study\nTue, Sep 15 · 7:00 PM PDT\n·\nOnline\nby Seattle Bible Study\n4.9\n2 attendees"
+    },
+    {
+      "title": "Angel Card Intuitive Reading Certification Class (ON-LINE)",
+      "url": "https://www.meetup.com/smhasoc/events/315122122/?recId=d00113b3-4b1e-436a-8a3a-aac9d569591d&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "3 attendees",
+      "cardText": "$30.00\nAngel Card Intuitive Reading Certification Class (ON-LINE)\nTue, Sep 15 · 7:00 PM PDT\n·\nOnline\nby Personal Growth Community - HeartSpace\n4.9\n3 attendees"
+    },
+    {
+      "title": "Liquid fuel rocket design and test",
+      "url": "https://www.meetup.com/experimental-rocket-propulsion-society/events/316292071/?recId=d00113b3-4b1e-436a-8a3a-aac9d569591d&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Monthly · Tue, Sep 15 · 7:30 PM PDT",
+      "dtAttr": "2026-09-15T22:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "3 attendees",
+      "cardText": "Liquid fuel rocket design and test\nMonthly · Tue, Sep 15 · 7:30 PM PDT\n·\nOnline\nby Experimental Rocket Propulsion Society\n4.6\n3 attendees"
+    },
+    {
+      "title": "FREE ONLINE HEALING CIRCLE with Spiritual Healer-Intuitive Mark Earlix",
+      "url": "https://www.meetup.com/spiritual-healing-circle-with-mark-earlix/events/316291513/?recId=d00113b3-4b1e-436a-8a3a-aac9d569591d&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 6:30 PM MST",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Phoenix]",
+      "attendeesText": "1 attendee",
+      "cardText": "FREE ONLINE HEALING CIRCLE with Spiritual Healer-Intuitive Mark Earlix\nEvery Tue · Sep 15 · 6:30 PM MST\n·\nOnline\nby Tucson Spiritual Matters with Healer-Intuitive Mark Earlix\n4.9\n1 attendee"
+    },
+    {
+      "title": "Abstract Painting on Zoom with Scott Yeskel",
+      "url": "https://www.meetup.com/http-www-klineacademy-blogspot-com/events/316291512/?recId=2dd72eb5-fadc-497c-9d0c-c8a04c3777e5&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "2 attendees",
+      "cardText": "Abstract Painting on Zoom with Scott Yeskel\nEvery Tue · Sep 15 · 6:30 PM PDT\n·\nOnline\nby Fine Art Classes at Kline Academy\n4.5\n2 attendees"
+    },
+    {
+      "title": "Tuesday NIght Fugitives",
+      "url": "https://www.meetup.com/poetsanddreamers/events/316291377/?recId=2dd72eb5-fadc-497c-9d0c-c8a04c3777e5&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "2 attendees",
+      "cardText": "Tuesday NIght Fugitives\nEvery Tue · Sep 15 · 6:30 PM PDT\n·\nOnline\nby Poets and Dreamers: The Official Global Creative Network\n4.8\n2 attendees"
+    },
+    {
+      "title": "Positive Psychology Salon",
+      "url": "https://www.meetup.com/philosophers-and-gamblers/events/316292163/?recId=2dd72eb5-fadc-497c-9d0c-c8a04c3777e5&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 7:30 PM PDT",
+      "dtAttr": "2026-09-15T22:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "5 attendees",
+      "cardText": "Positive Psychology Salon\nEvery Tue · Sep 15 · 7:30 PM PDT\n·\nOnline\nby Philosophers and Gamblers: Papers, Arguments, and Wagers\n4.5\n5 attendees"
+    },
+    {
+      "title": "Multi Family Investing Collab",
+      "url": "https://www.meetup.com/reiandbusiness/events/316291640/?recId=2dd72eb5-fadc-497c-9d0c-c8a04c3777e5&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "1 attendee",
+      "cardText": "Multi Family Investing Collab\nEvery Tue · Sep 15 · 7:00 PM PDT\n·\nOnline\nby Concord Real Estate/Entrepreneur Network\n4.4\n1 attendee"
+    },
+    {
+      "title": "Multi Family Real Estate is the Answer",
+      "url": "https://www.meetup.com/reiandbusiness/events/316291643/?recId=2dd72eb5-fadc-497c-9d0c-c8a04c3777e5&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "2 attendees",
+      "cardText": "Multi Family Real Estate is the Answer\nEvery Tue · Sep 15 · 7:00 PM PDT\n·\nOnline\nby Concord Real Estate/Entrepreneur Network\n4.4\n2 attendees"
+    },
+    {
+      "title": "Poem of the Week",
+      "url": "https://www.meetup.com/the-typewriter-poetry-group/events/315883681/?recId=2dd72eb5-fadc-497c-9d0c-c8a04c3777e5&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 7:30 PM PDT",
+      "dtAttr": "2026-09-15T22:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "9 attendees",
+      "cardText": "Poem of the Week\nEvery Tue · Sep 15 · 7:30 PM PDT\n·\nOnline\nby The Typewriter Poetry Group\n4.9\n9 attendees"
+    },
+    {
+      "title": "Club Meeting at Common Space Brewery",
+      "url": "https://www.meetup.com/common-space-toastmasters/events/316291897/?recId=2dd72eb5-fadc-497c-9d0c-c8a04c3777e5&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "1 attendee",
+      "cardText": "Club Meeting at Common Space Brewery\nEvery Tue · Sep 15 · 7:00 PM PDT\n·\nOnline\nby Common Space Toastmasters\n5.0\n1 attendee"
+    },
+    {
+      "title": "Tuesday Night Zumba® with Katie Lee",
+      "url": "https://www.meetup.com/eldocoloco/events/316291516/?recId=2dd72eb5-fadc-497c-9d0c-c8a04c3777e5&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 8:30 PM CDT",
+      "dtAttr": "2026-09-15T21:30:00-05:00[America/Chicago]",
+      "attendeesText": "3 attendees",
+      "cardText": "$6.00\nTuesday Night Zumba® with Katie Lee\nEvery Tue · Sep 15 · 8:30 PM CDT\n·\nOnline\nby Zumba® Classes from El Doco Loco Dance Studio\n4.9\n3 attendees"
+    },
+    {
+      "title": "Essential AI Skills: Explore & Practice",
+      "url": "https://www.meetup.com/girl-develop-it-cincinnati/events/316302078/?recId=2dd72eb5-fadc-497c-9d0c-c8a04c3777e5&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 10:00 PM EDT",
+      "dtAttr": "2026-09-15T22:00:00-04:00[America/New_York]",
+      "attendeesText": "1 attendee",
+      "cardText": "$325.00\nEssential AI Skills: Explore & Practice\nTue, Sep 15 · 10:00 PM EDT\n·\nOnline\nby Girl Develop It Cincinnati\n4.8\n1 attendee"
+    },
+    {
+      "title": "Robotics mentor/coach season kickoff",
+      "url": "https://www.meetup.com/remote-robotics-coaches-and-mentors/events/316158538/?recId=2dd72eb5-fadc-497c-9d0c-c8a04c3777e5&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "3 attendees",
+      "cardText": "Robotics mentor/coach season kickoff\nTue, Sep 15 · 7:00 PM PDT\n·\nOnline\nby Teaching with Maker Tech\n4.8\n3 attendees"
+    },
+    {
+      "title": "CORBA Board of Directors Meeting",
+      "url": "https://www.meetup.com/corbamtb/events/316291865/?recId=2dd72eb5-fadc-497c-9d0c-c8a04c3777e5&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Monthly · Tue, Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "3 attendees",
+      "cardText": "CORBA Board of Directors Meeting\nMonthly · Tue, Sep 15 · 7:00 PM PDT\n·\nOnline\nby CORBA, the Concerned Off-Road Bicyclists Association\n4.9\n3 attendees"
+    },
+    {
+      "title": "Zoom Book Study \"Nothing is Too Good to be True\"",
+      "url": "https://www.meetup.com/community-of-infinite-spirit/events/315510077/?recId=2dd72eb5-fadc-497c-9d0c-c8a04c3777e5&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "4 attendees",
+      "cardText": "Zoom Book Study \"Nothing is Too Good to be True\"\nEvery Tue · Sep 15 · 7:00 PM PDT\n·\nOnline\nby Community of Infinite Spirit\n4.8\n4 attendees"
+    },
+    {
+      "title": "Spanish & English tutoring",
+      "url": "https://www.meetup.com/hawthorne-tabletop-role-playing-and-board-games-meetup-group/events/316494592/?recId=e15d819d-9d72-49a3-8b81-f1dfad15a51b&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Sun, Mon, Tue, Wed, Thu, Fri, Sat · Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "1 attendee",
+      "cardText": "$20.00\nSpanish & English tutoring\nEvery Sun, Mon, Tue, Wed, Thu, Fri, Sat · Sep 15 · 7:00 PM PDT\n·\nOnline\nby Spanish & English tutoring\n1 attendee"
+    },
+    {
+      "title": "Deep Learning Study Group",
+      "url": "https://www.meetup.com/handsonprogrammingevents/events/315280326/?recId=e15d819d-9d72-49a3-8b81-f1dfad15a51b&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "27 attendees",
+      "cardText": "Deep Learning Study Group\nEvery Tue · Sep 15 · 6:30 PM PDT\n·\nOnline\nby Silicon Valley Hands On Programming Events\n4.7\n27 attendees"
+    },
+    {
+      "title": "Angel Card Intuitive Reading Certification Class (Online)",
+      "url": "https://www.meetup.com/oc-metaphysical-gatherings/events/316533170/?recId=e15d819d-9d72-49a3-8b81-f1dfad15a51b&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Tue, Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "1 attendee",
+      "cardText": "$30.00\nAngel Card Intuitive Reading Certification Class (Online)\nTue, Sep 15 · 7:00 PM PDT\n·\nOnline\nby OC Metaphysical Gatherings\n4.8\n1 attendee"
+    },
+    {
+      "title": "Teachings, Q&A, Meditations, Mystic Processes (w/ Matthew McCarthy)",
+      "url": "https://www.meetup.com/goldenagemovement/events/316291405/?recId=e15d819d-9d72-49a3-8b81-f1dfad15a51b&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 6:55 PM PDT",
+      "dtAttr": "2026-09-15T21:55:00-07:00[America/Los_Angeles]",
+      "attendeesText": "1 attendee",
+      "cardText": "Teachings, Q&A, Meditations, Mystic Processes (w/ Matthew McCarthy)\nEvery Tue · Sep 15 · 6:55 PM PDT\n·\nOnline\nby Golden Age Movement, for Enlightenment & Abundance\n4.8\n1 attendee"
+    },
+    {
+      "title": "Milpitas Friendly Toasters",
+      "url": "https://www.meetup.com/d101tm/events/316291414/?recId=e15d819d-9d72-49a3-8b81-f1dfad15a51b&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "5 attendees",
+      "cardText": "Milpitas Friendly Toasters\nEvery Tue · Sep 15 · 6:30 PM PDT\n·\nOnline\nby District 101 Toastmasters Clubs\n4.8\n5 attendees"
+    },
+    {
+      "title": "Agile Articulators",
+      "url": "https://www.meetup.com/d101tm/events/316291861/?recId=e15d819d-9d72-49a3-8b81-f1dfad15a51b&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "2 attendees",
+      "cardText": "Agile Articulators\nEvery Tue · Sep 15 · 7:00 PM PDT\n·\nOnline\nby District 101 Toastmasters Clubs\n4.8\n2 attendees"
+    },
+    {
+      "title": "Los Gatos Toastmasters",
+      "url": "https://www.meetup.com/d101tm/events/316291435/?recId=e15d819d-9d72-49a3-8b81-f1dfad15a51b&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 6:30 PM PDT",
+      "dtAttr": "2026-09-15T21:30:00-07:00[America/Los_Angeles]",
+      "attendeesText": "2 attendees",
+      "cardText": "Los Gatos Toastmasters\nEvery Tue · Sep 15 · 6:30 PM PDT\n·\nOnline\nby District 101 Toastmasters Clubs\n4.8\n2 attendees"
+    },
+    {
+      "title": "MCA Toastmasters Club meeting",
+      "url": "https://www.meetup.com/d101tm/events/316291758/?recId=e15d819d-9d72-49a3-8b81-f1dfad15a51b&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Every Tue · Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "4 attendees",
+      "cardText": "MCA Toastmasters Club meeting\nEvery Tue · Sep 15 · 7:00 PM PDT\n·\nOnline\nby District 101 Toastmasters Clubs\n4.8\n4 attendees"
+    },
+    {
+      "title": "Monthly Meeting (Now Online)",
+      "url": "https://www.meetup.com/sfquilters/events/316291822/?recId=e15d819d-9d72-49a3-8b81-f1dfad15a51b&recSource=ml-popular-events-nearby-online&searchId=33ac7569-fd4f-4d63-91d4-d233c8de6ebf&eventOrigin=find_page%24online",
+      "whenText": "Monthly · Tue, Sep 15 · 7:00 PM PDT",
+      "dtAttr": "2026-09-15T22:00:00-07:00[America/Los_Angeles]",
+      "attendeesText": "2 attendees",
+      "cardText": "Monthly Meeting (Now Online)\nMonthly · Tue, Sep 15 · 7:00 PM PDT\n·\nOnline\nby San Francisco Quilters Guild Meetup\n4.5\n2 attendees"
+    }
+  ]
+}
